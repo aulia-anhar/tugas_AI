@@ -1,0 +1,31 @@
+name: flutter_application_1_connect_server
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  connectivity_plus: ^4.0.1
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  http: ^0.13.3
+  image_picker: ^0.8.4
+  path_provider: ^2.0.15
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  image_path: "assets/icon/icon.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+ 
